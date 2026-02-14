@@ -4,8 +4,19 @@
         <servlet-name>ServletProduto</servlet-name>
         <servlet-class>cadastroee.servlets.ServletProduto</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletProdutoFC</servlet-name>
+        <servlet-class>cadastroee.servlets.ServletProdutoFC</servlet-class>
+    </servlet>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    <!--    <servlet>
+        <servlet-name>ServletProduto</servlet-name>
+        <servlet-class>cadastroee.servlets.ServletProduto</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletProduto</servlet-name>
         <url-pattern>/ServletProduto</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
 </web-app>
